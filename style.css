@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/inter');
+
 .first {
   display: flex;
   justify-content: space-between;
@@ -11,17 +13,21 @@
 .second {
   background-image: url(./images/header-illsutration-mobile@2x.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  vertical-align: top;
+  background-size: cover;
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 30px;
   color: #172b4d;
   padding: 12px 12px 12px 15px;
   font-family: 'Inter', sans-serif;
-  width: 345px;
+}
+
+.second-text {
+    max-width: 511px;
+    margin: auto;
+    font-weight: 400;
 }
 
 .third {
@@ -52,6 +58,7 @@
   width: 48px;
   height: 4px;
   background-color: #36b37e;
+  border-radius: 24px;
 }
 
 .work-section {
@@ -120,11 +127,13 @@
   background-color: #ebf0ee;
   margin: 0 5px;
   height: 20px;
+  font-family: 'Inter', sans-serif;
 }
 
 .lang {
   display: flex;
   padding: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 .multi {
@@ -149,6 +158,10 @@
   justify-content: flex-end;
 }
 
+.about-text {
+  font-family: 'Inter', sans-serif;
+}
+
 .about2 {
   text-align: center;
   padding: 15px 20px;
@@ -156,6 +169,7 @@
   background-image: url(./images/illustration\ 1-\ about\ me-mobile.png);
   background-repeat: no-repeat;
   background-position: top right;
+  font-family: 'Inter', sans-serif;
 }
 
 .butt2 {
@@ -200,6 +214,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
+  border-radius: 8px;
 }
 
 .li-lang {
