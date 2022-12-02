@@ -1,6 +1,7 @@
 .first {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 
 .header-first {
@@ -16,10 +17,11 @@
   justify-content: center;
   flex-direction: column;
   font-weight: 700px;
-  font-size: 40px;
+  font-size: 30px;
   color: #172b4d;
-  padding: 10px 15px 15px 10px;
+  padding: 12px 12px 12px 15px;
   font-family: 'Inter', sans-serif;
+  width: 345px;
 }
 
 .third {
