@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [MOBILEFIRST] <a name="about-project"></a>
 
 
 Make sure that there are no linter errors:
