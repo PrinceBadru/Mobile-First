@@ -325,4 +325,5 @@ textarea {
   background-image: url(./images/illustration-contact-form.png);
   background-repeat: no-repeat;
   background-position: right;
+  width: 90vw;
 }
