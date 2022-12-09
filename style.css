@@ -250,6 +250,11 @@
 
 .btn-resume {
   width: 159px;
+  height: 48px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.8em;
+  margin-top: 1em;
 }
 
 .resume-container {
@@ -492,7 +497,7 @@ textarea {
     margin: 30px;
     padding: 20px 1px;
     width: 374px;
-    height: 250px;
+    height: 350px;
     background-color: #e2e6ee;
     border-radius: 10px;
   }
@@ -540,6 +545,10 @@ textarea {
   .about-text {
     width: 920px;
     font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
   }
 
   .li-lang {
@@ -590,7 +599,7 @@ textarea {
   .btn {
     background-color: #36b37f;
     color: white;
-    width: 122px;
+    width: 159px;
     height: 48px;
     margin: 20px 0;
     font-size: 17px;
