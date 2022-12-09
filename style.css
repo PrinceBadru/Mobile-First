@@ -78,6 +78,7 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
+  margin-bottom: 35px;
 }
 
 .recent {
@@ -118,6 +119,7 @@
   background-color: #ebf0ee;
   margin: 0 5px;
   height: 20px;
+  border-radius: 8px;
 }
 
 .lang {
@@ -177,6 +179,7 @@
   padding: 20px 1px;
   height: 250px;
   background-color: #e2e6ee;
+  border-radius: 10px;
 }
 
 .language-icon {
@@ -206,6 +209,7 @@
   color: #36b37e;
   font-size: 12px;
   font-family: 'Inter', sans-serif;
+  border-radius: 10px;
 }
 
 .get {
@@ -449,7 +453,7 @@ textarea {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 35px;
   }
 
   .language-icon {
@@ -484,6 +488,7 @@ textarea {
     width: 374px;
     height: 250px;
     background-color: #e2e6ee;
+    border-radius: 10px;
   }
 
   .form-section {
@@ -537,6 +542,7 @@ textarea {
     color: #36b37e;
     font-size: 12px;
     font-family: 'Inter', sans-serif;
+    border-radius: 10px;
   }
 
   .aboutme section {
@@ -579,6 +585,7 @@ textarea {
     background-image: url(./images/illustration-about\ me-1-desktop@2x.jpg), url(./images/illustration-about-me-2-desktop.png);
     background-repeat: no-repeat;
     background-position: top right, top left;
+    background-size: 200px;
   }
 
   .btn {
