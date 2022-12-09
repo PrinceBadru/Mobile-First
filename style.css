@@ -1,6 +1,9 @@
 .first {
   display: flex;
   justify-content: space-between;
+  width: 95vw;
+  height: 7vh;
+  margin-top: 30px;
 }
 
 .header-first {
@@ -465,7 +468,11 @@ textarea {
     text-align: center;
     width: 920px;
     font-size: 23px;
-    background-image: none;
+    background-image: url(./images/illustration-about\ me-1-desktop@2x.jpg), url(./images/illustration-about-me-2-desktop.png);
+    background-repeat: no-repeat;
+    background-position: top right, bottom left;
+    background-size: 150px;
+    width: 90vw;
   }
 
   .aboutme-container {
@@ -579,13 +586,6 @@ textarea {
     background-image: url(./images/illustration-1-contact-form-desktop.png), url(./images/contact\ form-illustratoin-3-desktop.png);
     background-repeat: no-repeat;
     background-position: bottom left, bottom right;
-  }
-
-  .aboutme-background {
-    background-image: url(./images/illustration-about\ me-1-desktop@2x.jpg), url(./images/illustration-about-me-2-desktop.png);
-    background-repeat: no-repeat;
-    background-position: top right, top left;
-    background-size: 200px;
   }
 
   .btn {
