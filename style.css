@@ -608,7 +608,10 @@ textarea {
   }
 
   .btn:hover {
-    background-color: #36b37f;
+    background-color: #ffcccc;
+    width: 200px;
+    height: 200px;
+    rotate: 180deg;
   }
 
   .btn:active {
