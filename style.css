@@ -615,7 +615,7 @@ textarea {
   }
 
   .btn:hover {
-    background-color: #ffcccc;
+    background-color: #fcc;
     width: 200px;
     height: 200px;
     rotate: 180deg;
