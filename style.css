@@ -118,7 +118,6 @@
 
 .desktop-popup-img {
   height: 65vh;
-
 }
 
 .image-placeholder {
@@ -675,9 +674,8 @@ textarea {
   ul.header-first {
     display: none;
   }
-  
+
   section.mobile-menu {
     display: block;
   }
-
 }
