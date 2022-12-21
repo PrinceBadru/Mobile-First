@@ -63,7 +63,7 @@
 
 .mobile-menu {
   background-color: #ebf0ee;
-  width: 80vw;
+  width: 95vw;
   height: 75vh;
   border-radius: 15px;
   display: none;
@@ -663,19 +663,5 @@ textarea {
 
   .resume-container {
     display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  #hamburger {
-    display: block;
-  }
-
-  ul.header-first {
-    display: none;
-  }
-
-  section.mobile-menu {
-    display: block;
   }
 }
