@@ -61,6 +61,33 @@
   padding: 10px 15px 15px 10px;
 }
 
+.mobile-menu {
+  background-color: #ebf0ee;
+  width: 80vw;
+  height: 75vh;
+  border-radius: 15px;
+  display: none;
+}
+
+.mobile-list {
+  margin-top: 50px;
+}
+
+.mobile-text {
+  margin-top: 30px;
+  font-size: 32px;
+  font-family: 'Inter', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.close-button {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-right: 5px;
+}
+
 .project-container {
   display: grid;
   grid-template-columns: 300px;
@@ -87,6 +114,11 @@
 .recent {
   text-align: center;
   font-size: 50px;
+}
+
+.desktop-popup-img {
+  height: 65vh;
+
 }
 
 .image-placeholder {
@@ -633,4 +665,19 @@ textarea {
   .resume-container {
     display: none;
   }
+}
+
+@media (max-width: 768px) {
+  #hamburger {
+    display: block;
+  }
+
+  ul.header-first {
+    display: none;
+  }
+  
+  section.mobile-menu {
+    display: block;
+  }
+
 }
