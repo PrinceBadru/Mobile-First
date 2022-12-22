@@ -10,7 +10,7 @@
     
     <header class="first">
         <div class="first-img"><img src="./images/Welcome.png" alt="welcome button at the top left"></div>
-        <div class="first-img" > <img src="./images/Union.png" alt="a union of three vectors"> </div>
+        <div class="first-img"  > <img src="./images/Union.png" id="hamburger"  alt="a union of three vectors"> </div>
     
         <ul class="header-first">
          <li>Portfolio</li>
@@ -21,6 +21,17 @@
 
     </header>
     <br>
+
+    <section class="mobile-menu" >
+       <div class="close-button"> <img src="./images/Icon.png"  alt="close-icon"> </div>
+        <br>
+    <ul class="mobile-list" >
+        <li class="mobile-text1"><a href="#portfolio" class="mobile-text">Portfolio</a></li>
+        <li class="mobile-text1"><a href="#about"  class="mobile-text">About</a> </li> 
+        <li class="mobile-text1"><a href="#contact" class="mobile-text" >Contact</a> </li> 
+    </ul>  
+    </section>
+
     <section class="second">
       <h1> Hey there. I’m Alex.<span class="green" > <br> I’m a software developer</span></h1>
     <p class="second-text">
@@ -38,7 +49,7 @@
     </section>
            
            
-            <section class = "work-section">
+            <section class = "work-section" id="portfolio">
              <h2 class ="recent" >My Recent Works</h2>
              <hr class="line">
             
@@ -118,10 +129,11 @@
                 </div>
                 </div>
             </div>
+
             </section>
 
             <section class="aboutme-background">
-            <section class="aboutme section">
+            <section class="aboutme section" id="about">
                 <div class="aboutme-container">
                 <div class="about2">
                     <h2>About me</h2>
@@ -132,7 +144,7 @@
                 I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                 don’t hestiate to contact me.
                 </div>
-                <div class="butt "><button class="btn btn-resume" type="button"> Get My Resume</button></div>
+                <div class=><button class="btn btn-resume" type="button"> Get My Resume</button></div>
             </div>
                 </div>  
                 
@@ -188,7 +200,7 @@
             </section>
             </section>
 
-            <section class="contact"> 
+            <section class="contact" id="contact"> 
             
                 <section class="form-section">
                 
@@ -243,6 +255,6 @@
             </ul> 
             </footer>
             
-
+ <script src="./main.js"></script>
 </body>
 </html>
