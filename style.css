@@ -29,10 +29,6 @@
   display: flex;
 }
 
-desktop-popup-text1 {
-  
-}
-
 .third {
   font-style: normal;
   font-weight: 400;
@@ -79,7 +75,7 @@ desktop-popup-text1 {
 }
 
 .mobile-menu {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 100vw;
   height: 100vh;
   position: fixed;
