@@ -9,15 +9,9 @@ document.querySelector('.close-button').addEventListener('click', () => {
 });
 
 const mobileMenuOptions = document.querySelectorAll('ul.mobile-list li');
-mobileMenuOptions.forEach(option => {
+mobileMenuOptions.forEach((option) => {
   option.addEventListener('click', () => {
     const mobileMenu = document.querySelector('section.mobile-menu');
     mobileMenu.style.display = 'none';
   });
 });
-
-
-
-  
- 
-
