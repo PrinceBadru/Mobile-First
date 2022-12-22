@@ -25,6 +25,14 @@
   font-family: 'Inter', sans-serif;
 }
 
+.desktop-popup-text {
+  display: flex;
+}
+
+desktop-popup-text1 {
+  
+}
+
 .third {
   font-style: normal;
   font-weight: 400;
@@ -61,8 +69,17 @@
   padding: 10px 15px 15px 10px;
 }
 
+.desktop-popup-list {
+  display: flex;
+}
+
+.desktop-popup-card {
+  background-color: #e2e6ee;
+  border-radius: 10px;
+}
+
 .mobile-menu {
-  background-color: #ebf0ee;
+  background-color: #FFFFFF;
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -70,6 +87,7 @@
   right: 0;
   top: 0;
   border-radius: 15px;
+  font-weight: 600;
   display: none;
 }
 
@@ -81,15 +99,25 @@
   margin-top: 30px;
   font-size: 32px;
   font-family: 'Inter', sans-serif;
+  padding: 30px;
   color: black;
   text-decoration: none;
+}
+
+.mobile-text1 {
+  margin-top: 40px;
+}
+
+#about {
+  margin-top: 30px;
 }
 
 .close-button {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  margin-right: 5px;
+  margin-right: 38px;
+  margin-top: 62px;
 }
 
 .project-container {
